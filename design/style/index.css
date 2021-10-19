@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: "Fira Code";
+    text-decoration: none;
+}
+html,body,#root{
+    height: 100%;
+}
+body{
+    background: url('../../images/pattern-background-desktop.svg') no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.app{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    max-width:300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 8px #e5e5e5;    
+}
+.container #logo{
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.container main{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px 40px 25px;
+    margin: 0;
+}
+.container main h3{
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.container main p{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 11px;
+}
+.container main .desc{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 6px;
+}
+.container main .desc img{
+    height: 40px;
+}
+.container main .desc section{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.container main .desc section .plan{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.plan h5{
+    font-size: 12px;
+    font-weight: 550;
+}   
+.plan span{
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 100;
+}
+.container main .desc section a{
+    color: rgb(56,42,225);
+    font-size: 12px;
+}
+.container main button{
+    margin-top: 12px;
+    padding: 8px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(56,42,225);
+    color: #fff;
+    box-shadow: 0 2px 3px rgb(56,42,225);
+}
+.container main a:last-child{
+    margin-top: 18px;
+    text-align: center;
+    font-size: 12px;
+    color: #8f8f8f;
+}
